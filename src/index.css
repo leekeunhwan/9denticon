@@ -1,0 +1,257 @@
+/*===============
+  import fonts
+===============*/
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+* {
+  font-family: 'Nanum Gothic',
+    sans-serif;
+}
+
+
+/*===============
+  랜딩페이지 CSS
+===============*/
+
+.page1_sectionContainer,
+.page2_sectionContainer,
+.page3_sectionContainer,
+.page4_sectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 10%;
+}
+
+.page2_leftElem {
+  margin-right: 15%;
+}
+
+.page1_titleText,
+.page2_titleText,
+.page3_titleText,
+.page4_titleText {
+  width: 100%;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.page1_subText {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.page2_subText {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.page3_subText_container,
+.page4_subText_container {
+  margin-top: 20px;
+}
+
+.page3_image_container,
+.page4_image_container {
+  margin-top: 50px;
+}
+
+.page3_image_container img {
+  margin-right: 50px;
+}
+
+.page3_subText,
+.page4_subText {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.page3_image {
+  height: 200px;
+}
+
+.page4_image {
+  width: 80%;
+}
+
+.page5_GoToPage_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.page5_GoToPage {
+  background-color: rgb(32, 33, 34);
+  /* Green */
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease-out;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.page5_GoToPage:hover {
+  background-color: #ffffff;
+  color: rgb(32, 33, 34);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.page5_GoToPage:focus {
+  outline: none;
+}
+
+
+/*===============
+  시연페이지 CSS
+===============*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  background-color: #ffffff;
+}
+
+.APP_Background {
+  background-color: rgb(32, 33, 34);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.APP_InputBox_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.APP_Title {
+  margin: 3% 0;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.APP_HashText {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+.APP_Input_Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.APP_Input {
+  width: 350px;
+  padding: 8px 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: rgb(32, 33, 34);
+  color: #fff;
+  margin-right: 8px;
+}
+
+.APP_Input:focus {
+  outline: none;
+}
+
+.APP_ConverBtn {
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: rgb(32, 33, 34);
+  color: #fff;
+  font-weight: 600;
+}
+
+.APP_ConverBtn:hover {
+  background-color: #ffffff;
+  color: rgb(32, 33, 34);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.APP_ConverBtn:focus {
+  outline: none;
+}
+
+.APP_Body_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.APP_Design_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.APP_Design_Content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.APP_Design_Title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 5%;
+  font-weight: 600;
+}
+
+.APP_Design_Description {
+  width: 51%;
+  height: 70px;
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 10%;
+  font-weight: 600;
+  text-align: center;
+}
+
+.APP_Design_DownloadBtn {
+  margin-top: 10%;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: rgb(32, 33, 34);
+  color: #fff;
+  font-weight: 600;
+}
+
+.APP_Design_DownloadBtn:hover {
+  background-color: #ffffff;
+  color: rgb(32, 33, 34);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.APP_Design_DownloadBtn:focus {
+  outline: none;
+}
+
+#treeDown,
+#circleDown {
+  height: 240px;
+}
